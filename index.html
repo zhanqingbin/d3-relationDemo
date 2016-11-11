@@ -274,8 +274,8 @@
         /*绘制d3图*/
         function drawMap(root){
             $("#main").empty();
-            var width = $(document.body).width()-1000;
-            var height = $(document.body).height()-400;
+            var width = $(document.body).width();
+            var height = $(document.body).height();
 
             var svg = d3.select("#main").append("svg")
                     .attr("width",width)
